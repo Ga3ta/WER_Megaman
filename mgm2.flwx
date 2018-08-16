@@ -2,7 +2,7 @@
 <VJCC NAME="7" TYPE="7" VERSION="1" ID="6.0">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SUBCOUNT="7" SCENEWIDTH="15400" MAIN="VJC6.0" ROTX="7162" SCENEHEIGHT="10000">
+        <Catalog SUBCOUNT="8" SCENEWIDTH="15400" MAIN="VJC6.0" ROTX="7162" SCENEHEIGHT="10000">
             <BLOCK ID="11"/>
             <POS X="7162" Y="4904"/>
             <VAL>
@@ -73,6 +73,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+        <SUBPROGRAM X="7162" NAME="Compra Act" TYPE="1" Y="4818" ID="2"/>
         <SUBPROGRAM X="6889" NAME="modulo 7" TYPE="1" Y="4694" ID="6">
             <BLOCK ID="46"/>
             <POS X="6889" Y="4780"/>
@@ -496,6 +497,7 @@
     <Catalog GLOABLETIP="VJC6.0">
         <Catalog ID="0"/>
         <Catalog ID="1"/>
+        <Catalog ID="2"/>
         <Catalog ID="6"/>
         <Catalog ID="7"/>
         <Catalog ID="8"/>
@@ -509,5 +511,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="184"/>
+    <Catalog SIZE="36"/>
 </VJCC>
