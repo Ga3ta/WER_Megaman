@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VJCC NAME="" TYPE="7" ID="6.0" VERSION="1">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog SUBCOUNT="5" ROTX="6894" MAIN="VJC6.0" SCENEHEIGHT="9000" SCENEWIDTH="14400"/>
+        <SUBPROGRAM X="6894" NAME="Base" Y="4378" TYPE="1" ID="1"/>
+        <SUBPROGRAM X="6894" NAME="modulo 2" Y="4378" TYPE="1" ID="2"/>
+        <SUBPROGRAM X="6894" NAME="modulo 3" Y="4378" TYPE="1" ID="3"/>
+        <SUBPROGRAM X="6894" NAME="regreso 2" Y="4378" TYPE="1" ID="4"/>
+        <SUBPROGRAM X="6894" NAME="regreso 3" Y="4378" TYPE="1" ID="5"/>
+    </Catalog>
+    <Catalog GLOBALMTN="VJC6.0"/>
+    <Catalog GLOABLETIP="VJC6.0">
+        <Catalog ID="0"/>
+        <Catalog ID="1"/>
+        <Catalog ID="2"/>
+        <Catalog ID="3"/>
+        <Catalog ID="4"/>
+        <Catalog ID="5"/>
+    </Catalog>
+    <Catalog BLOCK="VJC6.0">
+        <Catalog Calc="VJC6.0"/>
+        <Catalog Log="VJC6.0"/>
+        <Catalog Var="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0"/>
+    </Catalog>
+    <Catalog SIZE="88"/>
+</VJCC>
