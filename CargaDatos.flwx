@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VJCC ID="6.0" NAME="Descarga7" VERSION="1" TYPE="7">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog MAIN="VJC6.0" SUBCOUNT="0" SCENEHEIGHT="9000" ROTX="6889" SCENEWIDTH="14400">
+            <BLOCK ID="25"/>
+            <POS X="6889" Y="4459"/>
+            <VAL>
+                <MOTORPARAMETER ID="132,63,40;0,1,-20;0,1,-20;132,133,40"/>
+                <CURRENTPORT ID="0"/>
+            </VAL>
+            <CHILD ID="NEXT">
+                <BLOCK ID="26"/>
+                <POS X="6889" Y="4546"/>
+                <VAL>
+                    <MOTORPARAMETER ID="0,1,300,2,100"/>
+                    <CURRENTPORT ID="2"/>
+                </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="25"/>
+                    <POS X="6889" Y="4632"/>
+                    <VAL>
+                        <MOTORPARAMETER ID="132,66,10;0,1,-20;0,0,-20;132,66,-10"/>
+                        <CURRENTPORT ID="0"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="12"/>
+                        <POS X="6889" Y="4719"/>
+                        <VAL>
+                            <DELAY ID="0.3"/>
+                        </VAL>
+                        <CHILD ID="NEXT">
+                            <BLOCK ID="26"/>
+                            <POS X="6889" Y="4806"/>
+                            <VAL>
+                                <MOTORPARAMETER ID="0,1,80,2,100"/>
+                                <CURRENTPORT ID="2"/>
+                            </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="25"/>
+                                <POS X="6889" Y="4892"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="132,45,40;0,1,-20;0,1,-20;132,45,40"/>
+                                    <CURRENTPORT ID="3"/>
+                                </VAL>
+                                <CHILD ID="NEXT">
+                                    <BLOCK ID="25"/>
+                                    <POS X="6889" Y="4979"/>
+                                    <VAL>
+                                        <MOTORPARAMETER ID="132,90,-40;0,1,-20;0,0,-20;132,70,-40"/>
+                                        <CURRENTPORT ID="0"/>
+                                    </VAL>
+                                    <CHILD ID="NEXT">
+                                        <BLOCK ID="26"/>
+                                        <POS X="6889" Y="5065"/>
+                                        <VAL>
+                                            <MOTORPARAMETER ID="0,1,200,2,-100"/>
+                                            <CURRENTPORT ID="2"/>
+                                        </VAL>
+                                    </CHILD>
+                                </CHILD>
+                            </CHILD>
+                        </CHILD>
+                    </CHILD>
+                </CHILD>
+            </CHILD>
+        </Catalog>
+    </Catalog>
+    <Catalog GLOBALMTN="VJC6.0"/>
+    <Catalog GLOABLETIP="VJC6.0">
+        <Catalog ID="0"/>
+    </Catalog>
+    <Catalog BLOCK="VJC6.0">
+        <Catalog Calc="VJC6.0"/>
+        <Catalog Log="VJC6.0"/>
+        <Catalog Var="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0"/>
+    </Catalog>
+    <Catalog SIZE="232"/>
+</VJCC>
