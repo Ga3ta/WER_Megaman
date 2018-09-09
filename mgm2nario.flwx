@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" NAME="GPS6" VERSION="1">
+<VJCC ID="6.0" TYPE="7" NAME="GPS5" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
         <Catalog SCENEHEIGHT="9500" SUBCOUNT="15" MAIN="VJC6.0" ROTX="6639" SCENEWIDTH="14900">
@@ -13,9 +13,25 @@
                 <BLOCK ID="11"/>
                 <POS X="6639" Y="4617"/>
                 <VAL>
-                    <NAME ID="GPS"/>
-                    <INDEX ID="8"/>
+                    <NAME ID="modulo 5"/>
+                    <INDEX ID="4"/>
                 </VAL>
+                <CHILD ID="NEXT">
+                    <BLOCK ID="11"/>
+                    <POS X="6639" Y="4703"/>
+                    <VAL>
+                        <NAME ID="GPS"/>
+                        <INDEX ID="8"/>
+                    </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="11"/>
+                        <POS X="6639" Y="4790"/>
+                        <VAL>
+                            <NAME ID="regreso 5"/>
+                            <INDEX ID="15"/>
+                        </VAL>
+                    </CHILD>
+                </CHILD>
             </CHILD>
         </Catalog>
         <SUBPROGRAM ID="1" TYPE="1" X="6639" Y="4444" NAME="Base">
@@ -1112,10 +1128,10 @@
                                         <POS X="6639" Y="5136"/>
                                         <VAL>
                                             <TYPE ID="1"/>
-                                            <SPEED ID="50"/>
+                                            <SPEED ID="100"/>
                                             <LEFTSPEED ID="0"/>
                                             <RIGHTSPEED ID="0"/>
-                                            <CYCLETIMES ID="1"/>
+                                            <CYCLETIMES ID="2"/>
                                             <CROSSINGTIME ID="0"/>
                                             <CROSSING ID="1"/>
                                         </VAL>
@@ -1273,5 +1289,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="141"/>
+    <Catalog SIZE="234"/>
 </VJCC>
