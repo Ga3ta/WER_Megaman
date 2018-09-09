@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC ID="6.0" TYPE="7" NAME="GPS5" VERSION="1">
+<VJCC ID="6.0" TYPE="7" NAME="22n" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0"/>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEHEIGHT="9500" SUBCOUNT="15" MAIN="VJC6.0" ROTX="6639" SCENEWIDTH="14900">
+        <Catalog SCENEHEIGHT="9500" SUBCOUNT="16" MAIN="VJC6.0" ROTX="6639" SCENEWIDTH="14900">
             <BLOCK ID="11"/>
             <POS X="6639" Y="4530"/>
             <VAL>
@@ -13,24 +13,16 @@
                 <BLOCK ID="11"/>
                 <POS X="6639" Y="4617"/>
                 <VAL>
-                    <NAME ID="modulo 5"/>
-                    <INDEX ID="4"/>
+                    <NAME ID="modulo 2"/>
+                    <INDEX ID="6"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="11"/>
                     <POS X="6639" Y="4703"/>
                     <VAL>
-                        <NAME ID="GPS"/>
-                        <INDEX ID="8"/>
+                        <NAME ID="regreso 2"/>
+                        <INDEX ID="12"/>
                     </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS X="6639" Y="4790"/>
-                        <VAL>
-                            <NAME ID="regreso 5"/>
-                            <INDEX ID="15"/>
-                        </VAL>
-                    </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
@@ -460,7 +452,7 @@
                                             <LEFTSPEED ID="0"/>
                                             <RIGHTSPEED ID="0"/>
                                             <CYCLETIMES ID="1"/>
-                                            <CROSSINGTIME ID="0.48"/>
+                                            <CROSSINGTIME ID="0.5"/>
                                             <CROSSING ID="1"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
@@ -600,6 +592,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
+        <SUBPROGRAM ID="9" TYPE="1" X="6639" Y="4444" NAME="2nario"/>
         <SUBPROGRAM ID="10" TYPE="1" X="6639" Y="4444" NAME="modulo 3">
             <BLOCK ID="46"/>
             <POS X="6639" Y="4530"/>
@@ -1275,6 +1268,7 @@
         <Catalog ID="6"/>
         <Catalog ID="7"/>
         <Catalog ID="8"/>
+        <Catalog ID="9"/>
         <Catalog ID="10"/>
         <Catalog ID="11"/>
         <Catalog ID="12"/>
@@ -1289,5 +1283,5 @@
         <Catalog Var="VJC6.0"/>
         <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="234"/>
+    <Catalog SIZE="181"/>
 </VJCC>
