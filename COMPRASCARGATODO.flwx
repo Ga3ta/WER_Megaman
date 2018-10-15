@@ -375,7 +375,7 @@
                             <LEFTSPEED ID="0"/>
                             <RIGHTSPEED ID="0"/>
                             <CYCLETIMES ID="1"/>
-                            <CROSSINGTIME ID="0.80"/>
+                            <CROSSINGTIME ID="0.70"/>
                             <CROSSING ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
@@ -392,7 +392,7 @@
                                 <BLOCK ID="25"/>
                                 <POS X="6639" Y="4963"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,195,-40;0,0,-20;0,0,-20;132,195,-40"/>
+                                    <MOTORPARAMETER ID="132,200,-40;0,0,-20;0,0,-20;132,200,-40"/>
                                     <CURRENTPORT ID="0"/>
                                 </VAL>
                             </CHILD>
@@ -542,8 +542,8 @@
                 <BLOCK ID="26"/>
                 <POS X="6639" Y="4616"/>
                 <VAL>
-                    <MOTORPARAMETER ID="0,1,208,2,-40"/>
-                    <CURRENTPORT ID="3"/>
+                    <MOTORPARAMETER ID="0,1,215,2,-40"/>
+                    <CURRENTPORT ID="2"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
@@ -1302,5 +1302,5 @@
             </Block>
         </Catalog>
     </Catalog>
-    <Catalog SIZE="2"/>
+    <Catalog SIZE="228"/>
 </VJCC>
