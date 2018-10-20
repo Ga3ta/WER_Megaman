@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VJCC TYPE="7" NAME="" ID="6.0" VERSION="1">
+    <Catalog GLOBALVAL="VJC6.0"/>
+    <Catalog GLOBALTREE="VJC6.0">
+        <Catalog ROTX="6894" MAIN="VJC6.0" SCENEHEIGHT="9000" SUBCOUNT="0" SCENEWIDTH="14400"/>
+    </Catalog>
+    <Catalog GLOBALMTN="VJC6.0"/>
+    <Catalog GLOABLETIP="VJC6.0">
+        <Catalog ID="0"/>
+    </Catalog>
+    <Catalog BLOCK="VJC6.0">
+        <Catalog Calc="VJC6.0"/>
+        <Catalog Log="VJC6.0"/>
+        <Catalog Var="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0"/>
+    </Catalog>
+    <Catalog SIZE="37"/>
+</VJCC>
