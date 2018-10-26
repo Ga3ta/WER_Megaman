@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC TYPE="7" ID="6.0" NAME="CC3" VERSION="1">
+<VJCC ID="6.0" VERSION="1" NAME="cc6" TYPE="7">
     <Catalog GLOBALVAL="VJC6.0">
         <VAR ID="1" NAME="0&amp;0" INDEX="1"/>
         <VAR ID="4" NAME="0&amp;0" INDEX="1"/>
@@ -8,31 +8,39 @@
         <VAR ID="11" NAME="0&amp;0" INDEX="1"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog SCENEWIDTH="14900" MAIN="VJC6.0" SUBCOUNT="15" SCENEHEIGHT="9500" ROTX="6639">
+        <Catalog MAIN="VJC6.0" SCENEWIDTH="14900" SCENEHEIGHT="9500" SUBCOUNT="14" ROTX="6912">
             <BLOCK ID="11"/>
-            <POS Y="4530" X="6639"/>
+            <POS Y="4654" X="6912"/>
             <VAL>
                 <NAME ID="Base"/>
                 <INDEX ID="1"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="11"/>
-                <POS Y="4617" X="6639"/>
+                <POS Y="4741" X="6912"/>
                 <VAL>
-                    <NAME ID="modulo 3"/>
-                    <INDEX ID="10"/>
+                    <NAME ID="modulo 6"/>
+                    <INDEX ID="5"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="11"/>
-                    <POS Y="4703" X="6639"/>
+                    <POS Y="4827" X="6912"/>
                     <VAL>
                         <NAME ID="CARGA"/>
                         <INDEX ID="9"/>
                     </VAL>
+                    <CHILD ID="NEXT">
+                        <BLOCK ID="11"/>
+                        <POS Y="4914" X="6912"/>
+                        <VAL>
+                            <NAME ID="regreso 6"/>
+                            <INDEX ID="16"/>
+                        </VAL>
+                    </CHILD>
                 </CHILD>
             </CHILD>
         </Catalog>
-        <SUBPROGRAM TYPE="1" ID="1" NAME="Base" Y="4444" X="6639">
+        <SUBPROGRAM ID="1" NAME="Base" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="41"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -79,7 +87,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="2" NAME="modulo 1" Y="4444" X="6639">
+        <SUBPROGRAM ID="2" NAME="modulo 1" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -91,7 +99,7 @@
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="43"/>
-                <POS Y="4617" X="6639"/>
+                <POS Y="4616" X="6639"/>
                 <VAL>
                     <TYPE ID="0"/>
                     <SPEED ID="50"/>
@@ -113,7 +121,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="25"/>
-                        <POS Y="4790" X="6639"/>
+                        <POS Y="4789" X="6639"/>
                         <VAL>
                             <MOTORPARAMETER ID="132,40,-20;0,0,-20;0,0,-20;132,40,-20"/>
                             <CURRENTPORT ID="0"/>
@@ -122,7 +130,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="3" NAME="modulo 4" Y="4444" X="6639">
+        <SUBPROGRAM ID="3" NAME="modulo 4" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -177,60 +185,22 @@
                                 <TYPE ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
-                                <BLOCK ID="25"/>
+                                <BLOCK ID="44"/>
                                 <POS Y="4963" X="6639"/>
                                 <VAL>
-                                    <MOTORPARAMETER ID="132,240,-40;0,0,-20;0,0,-20;132,240,-40"/>
-                                    <CURRENTPORT ID="0"/>
+                                    <SPEED ID="50"/>
+                                    <LEFTSPEED ID="0"/>
+                                    <RIGHTSPEED ID="0"/>
+                                    <CROSSINGTIME ID="1.88"/>
+                                    <TYPE ID="1"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
-                                    <BLOCK ID="46"/>
+                                    <BLOCK ID="25"/>
                                     <POS Y="5049" X="6639"/>
                                     <VAL>
-                                        <NUMBERS ID="1"/>
-                                        <LEFTSPEED ID="40"/>
-                                        <RIGHTSPEED ID="-40"/>
-                                        <ENDPOSITION ID="0"/>
-                                        <TYPE ID="0"/>
+                                        <MOTORPARAMETER ID="0,1,46,3,20"/>
+                                        <CURRENTPORT ID="3"/>
                                     </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="25"/>
-                                        <POS Y="5136" X="6639"/>
-                                        <VAL>
-                                            <MOTORPARAMETER ID="132,240,-40;0,0,-20;0,0,-20;132,240,-40"/>
-                                            <CURRENTPORT ID="0"/>
-                                        </VAL>
-                                        <CHILD ID="NEXT">
-                                            <BLOCK ID="46"/>
-                                            <POS Y="5222" X="6639"/>
-                                            <VAL>
-                                                <NUMBERS ID="1"/>
-                                                <LEFTSPEED ID="-50"/>
-                                                <RIGHTSPEED ID="50"/>
-                                                <ENDPOSITION ID="0"/>
-                                                <TYPE ID="1"/>
-                                            </VAL>
-                                            <CHILD ID="NEXT">
-                                                <BLOCK ID="25"/>
-                                                <POS Y="5309" X="6639"/>
-                                                <VAL>
-                                                    <MOTORPARAMETER ID="132,240,-40;0,0,-20;0,0,-20;132,240,-40"/>
-                                                    <CURRENTPORT ID="0"/>
-                                                </VAL>
-                                                <CHILD ID="NEXT">
-                                                    <BLOCK ID="46"/>
-                                                    <POS Y="5396" X="6639"/>
-                                                    <VAL>
-                                                        <NUMBERS ID="1"/>
-                                                        <LEFTSPEED ID="50"/>
-                                                        <RIGHTSPEED ID="-50"/>
-                                                        <ENDPOSITION ID="0"/>
-                                                        <TYPE ID="1"/>
-                                                    </VAL>
-                                                </CHILD>
-                                            </CHILD>
-                                        </CHILD>
-                                    </CHILD>
                                 </CHILD>
                             </CHILD>
                         </CHILD>
@@ -238,93 +208,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="4" NAME="modulo 5" Y="4444" X="6639">
-            <BLOCK ID="46"/>
-            <POS Y="4530" X="6639"/>
-            <VAL>
-                <NUMBERS ID="1"/>
-                <LEFTSPEED ID="-40"/>
-                <RIGHTSPEED ID="40"/>
-                <ENDPOSITION ID="1"/>
-                <TYPE ID="0"/>
-            </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="43"/>
-                <POS Y="4616" X="6639"/>
-                <VAL>
-                    <TYPE ID="1"/>
-                    <SPEED ID="50"/>
-                    <LEFTSPEED ID="0"/>
-                    <RIGHTSPEED ID="0"/>
-                    <CYCLETIMES ID="1"/>
-                    <CROSSINGTIME ID="0.48"/>
-                    <CROSSING ID="0"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="46"/>
-                    <POS Y="4703" X="6639"/>
-                    <VAL>
-                        <NUMBERS ID="2"/>
-                        <LEFTSPEED ID="40"/>
-                        <RIGHTSPEED ID="-40"/>
-                        <ENDPOSITION ID="2"/>
-                        <TYPE ID="0"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="43"/>
-                        <POS Y="4789" X="6639"/>
-                        <VAL>
-                            <TYPE ID="0"/>
-                            <SPEED ID="50"/>
-                            <LEFTSPEED ID="0"/>
-                            <RIGHTSPEED ID="0"/>
-                            <CYCLETIMES ID="1"/>
-                            <CROSSINGTIME ID="0.4"/>
-                            <CROSSING ID="0"/>
-                        </VAL>
-                        <CHILD ID="NEXT">
-                            <BLOCK ID="46"/>
-                            <POS Y="4876" X="6639"/>
-                            <VAL>
-                                <NUMBERS ID="2"/>
-                                <LEFTSPEED ID="-40"/>
-                                <RIGHTSPEED ID="40"/>
-                                <ENDPOSITION ID="0"/>
-                                <TYPE ID="1"/>
-                            </VAL>
-                            <CHILD ID="NEXT">
-                                <BLOCK ID="25"/>
-                                <POS Y="4963" X="6639"/>
-                                <VAL>
-                                    <MOTORPARAMETER ID="132,190,-40;0,0,-20;0,0,-20;132,190,-40"/>
-                                    <CURRENTPORT ID="0"/>
-                                </VAL>
-                                <CHILD ID="NEXT">
-                                    <BLOCK ID="46"/>
-                                    <POS Y="5049" X="6639"/>
-                                    <VAL>
-                                        <NUMBERS ID="2"/>
-                                        <LEFTSPEED ID="40"/>
-                                        <RIGHTSPEED ID="-40"/>
-                                        <ENDPOSITION ID="0"/>
-                                        <TYPE ID="1"/>
-                                    </VAL>
-                                    <CHILD ID="NEXT">
-                                        <BLOCK ID="25"/>
-                                        <POS Y="5136" X="6639"/>
-                                        <VAL>
-                                            <MOTORPARAMETER ID="132,120,-40;0,0,-20;0,0,-20;132,120,-40"/>
-                                            <CURRENTPORT ID="0"/>
-                                        </VAL>
-                                    </CHILD>
-                                </CHILD>
-                            </CHILD>
-                        </CHILD>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
-        </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="5" NAME="modulo 6" Y="4444" X="6639">
+        <SUBPROGRAM ID="5" NAME="modulo 6" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -378,12 +262,20 @@
                                 <ENDPOSITION ID="0"/>
                                 <TYPE ID="1"/>
                             </VAL>
+                            <CHILD ID="NEXT">
+                                <BLOCK ID="25"/>
+                                <POS Y="4963" X="6639"/>
+                                <VAL>
+                                    <MOTORPARAMETER ID="132,120,-20;0,1,-20;0,1,-20;132,120,-20"/>
+                                    <CURRENTPORT ID="3"/>
+                                </VAL>
+                            </CHILD>
                         </CHILD>
                     </CHILD>
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="6" NAME="modulo 2" Y="4444" X="6639">
+        <SUBPROGRAM ID="6" NAME="modulo 2" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -444,7 +336,7 @@
                                 <POS Y="4963" X="6639"/>
                                 <VAL>
                                     <MOTORPARAMETER ID="132,240,-40;0,0,-20;0,0,-20;132,240,-40"/>
-                                    <CURRENTPORT ID="3"/>
+                                    <CURRENTPORT ID="0"/>
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="46"/>
@@ -471,7 +363,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="7" NAME="Base_6" Y="4444" X="6639">
+        <SUBPROGRAM ID="7" NAME="Base_6" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="41"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -518,39 +410,39 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="9" NAME="CARGA" Y="4568" X="6912">
+        <SUBPROGRAM ID="9" NAME="CARGA" Y="4568" TYPE="1" X="6912">
             <BLOCK ID="25"/>
             <POS Y="4654" X="6912"/>
             <VAL>
-                <MOTORPARAMETER ID="132,40,40;0,0,-20;0,0,-20;132,40,40"/>
-                <CURRENTPORT ID="0"/>
+                <MOTORPARAMETER ID="132,25,40;0,0,-20;0,0,-20;132,25,40"/>
+                <CURRENTPORT ID="3"/>
             </VAL>
             <CHILD ID="NEXT">
                 <BLOCK ID="25"/>
-                <POS Y="4740" X="6912"/>
+                <POS Y="4741" X="6912"/>
                 <VAL>
-                    <MOTORPARAMETER ID="132,450,-10;0,0,-20;0,0,-20;132,450,10"/>
+                    <MOTORPARAMETER ID="132,415,-10;0,0,-20;0,0,-20;132,415,10"/>
                     <CURRENTPORT ID="0"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="25"/>
                     <POS Y="4827" X="6912"/>
                     <VAL>
-                        <MOTORPARAMETER ID="132,213,40;0,0,-20;0,0,-20;132,213,40"/>
-                        <CURRENTPORT ID="0"/>
+                        <MOTORPARAMETER ID="132,245,40;0,0,-20;0,0,-20;132,245,40"/>
+                        <CURRENTPORT ID="3"/>
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="26"/>
-                        <POS Y="4913" X="6912"/>
+                        <POS Y="4914" X="6912"/>
                         <VAL>
                             <MOTORPARAMETER ID="0,1,313,1,70"/>
-                            <CURRENTPORT ID="3"/>
+                            <CURRENTPORT ID="1"/>
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="25"/>
-                            <POS Y="5000" X="6912"/>
+                            <POS Y="5001" X="6912"/>
                             <VAL>
-                                <MOTORPARAMETER ID="132,20,-20;0,0,-20;0,0,-20;132,35,-20"/>
+                                <MOTORPARAMETER ID="132,29,-20;0,0,-20;0,0,-20;132,39,-20"/>
                                 <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
@@ -561,48 +453,32 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="25"/>
-                                    <POS Y="5173" X="6912"/>
+                                    <POS Y="5174" X="6912"/>
                                     <VAL>
-                                        <MOTORPARAMETER ID="132,30,-40;0,0,-20;0,0,-20;132,30,-40"/>
-                                        <CURRENTPORT ID="0"/>
+                                        <MOTORPARAMETER ID="0,1,105,3,40"/>
+                                        <CURRENTPORT ID="3"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
-                                        <BLOCK ID="25"/>
+                                        <BLOCK ID="26"/>
                                         <POS Y="5260" X="6912"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="0,1,103,3,40"/>
-                                            <CURRENTPORT ID="3"/>
+                                            <MOTORPARAMETER ID="0,1,320,1,-70"/>
+                                            <CURRENTPORT ID="1"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-                                            <POS Y="5346" X="6912"/>
+                                            <POS Y="5347" X="6912"/>
                                             <VAL>
-                                                <MOTORPARAMETER ID="132,20,30;0,0,-20;0,0,-20;132,20,30"/>
-                                                <CURRENTPORT ID="0"/>
+                                                <MOTORPARAMETER ID="132,225,-40;0,0,-20;0,0,-20;132,225,-40"/>
+                                                <CURRENTPORT ID="3"/>
                                             </VAL>
                                             <CHILD ID="NEXT">
-                                                <BLOCK ID="26"/>
-                                                <POS Y="5433" X="6912"/>
+                                                <BLOCK ID="25"/>
+                                                <POS Y="5434" X="6912"/>
                                                 <VAL>
-                                                    <MOTORPARAMETER ID="0,1,310,1,-70"/>
-                                                    <CURRENTPORT ID="3"/>
+                                                    <MOTORPARAMETER ID="132,440,40;0,0,-20;0,0,-20;132,440,-40"/>
+                                                    <CURRENTPORT ID="0"/>
                                                 </VAL>
-                                                <CHILD ID="NEXT">
-                                                    <BLOCK ID="25"/>
-                                                    <POS Y="5520" X="6912"/>
-                                                    <VAL>
-                                                        <MOTORPARAMETER ID="132,225,-40;0,0,-20;0,0,-20;132,225,-40"/>
-                                                        <CURRENTPORT ID="0"/>
-                                                    </VAL>
-                                                    <CHILD ID="NEXT">
-                                                        <BLOCK ID="25"/>
-                                                        <POS Y="5606" X="6912"/>
-                                                        <VAL>
-                                                            <MOTORPARAMETER ID="132,490,40;0,0,-20;0,0,-20;132,490,-40"/>
-                                                            <CURRENTPORT ID="0"/>
-                                                        </VAL>
-                                                    </CHILD>
-                                                </CHILD>
                                             </CHILD>
                                         </CHILD>
                                     </CHILD>
@@ -613,7 +489,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="10" NAME="modulo 3" Y="4444" X="6639">
+        <SUBPROGRAM ID="10" NAME="modulo 3" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -667,7 +543,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="11" NAME="regreso 1" Y="4444" X="6639">
+        <SUBPROGRAM ID="11" NAME="regreso 1" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -723,7 +599,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="12" NAME="regreso 2" Y="4444" X="6639">
+        <SUBPROGRAM ID="12" NAME="regreso 2" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="25"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -835,7 +711,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="13" NAME="regreso 3" Y="4444" X="6639">
+        <SUBPROGRAM ID="13" NAME="regreso 3" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="25"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -923,7 +799,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="14" NAME="regreso 4" Y="4444" X="6639">
+        <SUBPROGRAM ID="14" NAME="regreso 4" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="25"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -1011,7 +887,7 @@
                                             <POS Y="5222" X="6639"/>
                                             <VAL>
                                                 <TYPE ID="1"/>
-                                                <SPEED ID="50"/>
+                                                <SPEED ID="70"/>
                                                 <LEFTSPEED ID="0"/>
                                                 <RIGHTSPEED ID="0"/>
                                                 <CYCLETIMES ID="1"/>
@@ -1035,7 +911,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="15" NAME="regreso 5" Y="4444" X="6639">
+        <SUBPROGRAM ID="15" NAME="regreso 5" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="46"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -1046,11 +922,16 @@
                 <TYPE ID="1"/>
             </VAL>
             <CHILD ID="NEXT">
-                <BLOCK ID="25"/>
-                <POS Y="4616" X="6639"/>
+                <BLOCK ID="43"/>
+                <POS Y="4617" X="6639"/>
                 <VAL>
-                    <MOTORPARAMETER ID="132,180,-40;0,0,-20;0,0,-20;132,180,-40"/>
-                    <CURRENTPORT ID="0"/>
+                    <TYPE ID="1"/>
+                    <SPEED ID="50"/>
+                    <LEFTSPEED ID="0"/>
+                    <RIGHTSPEED ID="0"/>
+                    <CYCLETIMES ID="1"/>
+                    <CROSSINGTIME ID="0.5"/>
+                    <CROSSING ID="1"/>
                 </VAL>
                 <CHILD ID="NEXT">
                     <BLOCK ID="46"/>
@@ -1064,7 +945,7 @@
                     </VAL>
                     <CHILD ID="NEXT">
                         <BLOCK ID="43"/>
-                        <POS Y="4789" X="6639"/>
+                        <POS Y="4790" X="6639"/>
                         <VAL>
                             <TYPE ID="0"/>
                             <SPEED ID="50"/>
@@ -1076,7 +957,7 @@
                         </VAL>
                         <CHILD ID="NEXT">
                             <BLOCK ID="46"/>
-                            <POS Y="4876" X="6639"/>
+                            <POS Y="4877" X="6639"/>
                             <VAL>
                                 <NUMBERS ID="1"/>
                                 <LEFTSPEED ID="-40"/>
@@ -1098,7 +979,7 @@
                                 </VAL>
                                 <CHILD ID="NEXT">
                                     <BLOCK ID="46"/>
-                                    <POS Y="5049" X="6639"/>
+                                    <POS Y="5050" X="6639"/>
                                     <VAL>
                                         <NUMBERS ID="1"/>
                                         <LEFTSPEED ID="40"/>
@@ -1120,7 +1001,7 @@
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="25"/>
-                                            <POS Y="5222" X="6639"/>
+                                            <POS Y="5223" X="6639"/>
                                             <VAL>
                                                 <MOTORPARAMETER ID="136,1,-40;0,0,-20;0,0,-20;136,1,-40"/>
                                                 <CURRENTPORT ID="0"/>
@@ -1134,7 +1015,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM TYPE="1" ID="16" NAME="regreso 6" Y="4444" X="6639">
+        <SUBPROGRAM ID="16" NAME="regreso 6" Y="4444" TYPE="1" X="6639">
             <BLOCK ID="25"/>
             <POS Y="4530" X="6639"/>
             <VAL>
@@ -1253,7 +1134,6 @@
         <Catalog ID="1"/>
         <Catalog ID="2"/>
         <Catalog ID="3"/>
-        <Catalog ID="4"/>
         <Catalog ID="5"/>
         <Catalog ID="6"/>
         <Catalog ID="7"/>
@@ -1270,7 +1150,16 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0"/>
+        <Catalog BaseBlock="VJC6.0">
+            <Block>
+                <BLOCK ID="25"/>
+                <POS Y="5275" X="6532"/>
+                <VAL>
+                    <MOTORPARAMETER ID="132,40,30;0,0,-20;0,0,-20;132,50,30"/>
+                    <CURRENTPORT ID="3"/>
+                </VAL>
+            </Block>
+        </Catalog>
     </Catalog>
-    <Catalog SIZE="220"/>
+    <Catalog SIZE="98"/>
 </VJCC>
