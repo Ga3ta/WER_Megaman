@@ -1,43 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VJCC NAME="019" TYPE="7" ID="6.0" VERSION="1">
+<VJCC TYPE="7" ID="6.0" NAME="019" VERSION="1">
     <Catalog GLOBALVAL="VJC6.0">
-        <VAR NAME="gyro_1" INDEX="1" ID="4"/>
-        <VAR NAME="0&amp;0" INDEX="2" ID="4"/>
+        <VAR INDEX="1" ID="4" NAME="gyro_1"/>
+        <VAR INDEX="2" ID="4" NAME="0&amp;0"/>
     </Catalog>
     <Catalog GLOBALTREE="VJC6.0">
-        <Catalog MAIN="VJC6.0" ROTX="6889" SCENEHEIGHT="10000" SUBCOUNT="15" SCENEWIDTH="15400">
+        <Catalog SCENEWIDTH="15400" MAIN="VJC6.0" ROTX="6889" SUBCOUNT="15" SCENEHEIGHT="10000">
             <BLOCK ID="11"/>
             <POS Y="4780" X="6889"/>
             <VAL>
                 <NAME ID="Base"/>
                 <INDEX ID="1"/>
             </VAL>
-            <CHILD ID="NEXT">
-                <BLOCK ID="11"/>
-                <POS Y="4867" X="6889"/>
-                <VAL>
-                    <NAME ID="modulo 9"/>
-                    <INDEX ID="7"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="11"/>
-                    <POS Y="4953" X="6889"/>
-                    <VAL>
-                        <NAME ID="binario"/>
-                        <INDEX ID="10"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS Y="5040" X="6889"/>
-                        <VAL>
-                            <NAME ID="modulo 9"/>
-                            <INDEX ID="7"/>
-                        </VAL>
-                    </CHILD>
-                </CHILD>
-            </CHILD>
         </Catalog>
-        <SUBPROGRAM NAME="Base" Y="4694" TYPE="1" ID="1" X="6889">
+        <SUBPROGRAM TYPE="1" ID="1" NAME="Base" Y="4694" X="6889">
             <BLOCK ID="41"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -84,7 +60,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Sub2" Y="4818" TYPE="1" ID="2" X="7162">
+        <SUBPROGRAM TYPE="1" ID="2" NAME="Sub2" Y="4818" X="7162">
             <BLOCK ID="25"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -225,7 +201,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="GPS" Y="4818" TYPE="1" ID="3" X="7162">
+        <SUBPROGRAM TYPE="1" ID="3" NAME="GPS" Y="4818" X="7162">
             <BLOCK ID="25"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -257,7 +233,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="compras " Y="4818" TYPE="1" ID="4" X="7162">
+        <SUBPROGRAM TYPE="1" ID="4" NAME="compras " Y="4818" X="7162">
             <BLOCK ID="25"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -340,7 +316,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Sub5" Y="4694" TYPE="1" ID="5" X="6889">
+        <SUBPROGRAM TYPE="1" ID="5" NAME="Sub5" Y="4694" X="6889">
             <BLOCK ID="12"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -409,7 +385,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="modulo 7" Y="4694" TYPE="1" ID="6" X="6889">
+        <SUBPROGRAM TYPE="1" ID="6" NAME="modulo 7" Y="4694" X="6889">
             <BLOCK ID="46"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -460,7 +436,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="modulo 9" Y="4694" TYPE="1" ID="7" X="6889">
+        <SUBPROGRAM TYPE="1" ID="7" NAME="modulo 9" Y="4694" X="6889">
             <BLOCK ID="46"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -514,7 +490,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="modulo 8" Y="4694" TYPE="1" ID="8" X="6889">
+        <SUBPROGRAM TYPE="1" ID="8" NAME="modulo 8" Y="4694" X="6889">
             <BLOCK ID="46"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -587,7 +563,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="RB" Y="4694" TYPE="1" ID="9" X="6889">
+        <SUBPROGRAM TYPE="1" ID="9" NAME="RB" Y="4694" X="6889">
             <BLOCK ID="25"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -649,7 +625,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="binario" Y="4694" TYPE="1" ID="10" X="6889">
+        <SUBPROGRAM TYPE="1" ID="10" NAME="binario" Y="4694" X="6889">
             <BLOCK ID="25"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -709,7 +685,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="regreso 8" Y="4694" TYPE="1" ID="11" X="6889">
+        <SUBPROGRAM TYPE="1" ID="11" NAME="regreso 8" Y="4694" X="6889">
             <BLOCK ID="25"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -773,7 +749,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="regreso 9" Y="4694" TYPE="1" ID="12" X="6889">
+        <SUBPROGRAM TYPE="1" ID="12" NAME="regreso 9" Y="4694" X="6889">
             <BLOCK ID="46"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -829,7 +805,7 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="CD" Y="4818" TYPE="1" ID="13" X="7162">
+        <SUBPROGRAM TYPE="1" ID="13" NAME="CD" Y="4818" X="7162">
             <BLOCK ID="25"/>
             <POS Y="4904" X="7162"/>
             <VAL>
@@ -862,7 +838,7 @@
                             <POS Y="5250" X="7162"/>
                             <VAL>
                                 <MOTORPARAMETER ID="132,35,-20;0,0,-20;0,0,-20;132,35,-20"/>
-                                <CURRENTPORT ID="3"/>
+                                <CURRENTPORT ID="0"/>
                             </VAL>
                             <CHILD ID="NEXT">
                                 <BLOCK ID="12"/>
@@ -874,15 +850,15 @@
                                     <BLOCK ID="25"/>
                                     <POS Y="5423" X="7162"/>
                                     <VAL>
-                                        <MOTORPARAMETER ID="132,60,-40;0,1,-20;0,1,-20;132,120,-40"/>
-                                        <CURRENTPORT ID="3"/>
+                                        <MOTORPARAMETER ID="132,60,-40;0,0,-20;0,0,-20;132,120,-40"/>
+                                        <CURRENTPORT ID="0"/>
                                     </VAL>
                                     <CHILD ID="NEXT">
                                         <BLOCK ID="25"/>
                                         <POS Y="5510" X="7162"/>
                                         <VAL>
-                                            <MOTORPARAMETER ID="132,120,20;0,1,-20;0,1,-20;132,120,20"/>
-                                            <CURRENTPORT ID="3"/>
+                                            <MOTORPARAMETER ID="132,120,20;0,0,-20;0,0,-20;132,120,20"/>
+                                            <CURRENTPORT ID="0"/>
                                         </VAL>
                                         <CHILD ID="NEXT">
                                             <BLOCK ID="26"/>
@@ -916,8 +892,8 @@
                 </CHILD>
             </CHILD>
         </SUBPROGRAM>
-        <SUBPROGRAM NAME="Sub14" Y="4818" TYPE="1" ID="14" X="7162"/>
-        <SUBPROGRAM NAME="regreso 7" Y="4694" TYPE="1" ID="15" X="6889">
+        <SUBPROGRAM TYPE="1" ID="14" NAME="Sub14" Y="4818" X="7162"/>
+        <SUBPROGRAM TYPE="1" ID="15" NAME="regreso 7" Y="4694" X="6889">
             <BLOCK ID="25"/>
             <POS Y="4780" X="6889"/>
             <VAL>
@@ -1000,32 +976,7 @@
         <Catalog Calc="VJC6.0"/>
         <Catalog Log="VJC6.0"/>
         <Catalog Var="VJC6.0"/>
-        <Catalog BaseBlock="VJC6.0">
-            <Block>
-                <BLOCK ID="11"/>
-                <POS Y="4719" X="6376"/>
-                <VAL>
-                    <NAME ID="modulo 8"/>
-                    <INDEX ID="8"/>
-                </VAL>
-                <CHILD ID="NEXT">
-                    <BLOCK ID="11"/>
-                    <POS Y="4805" X="6376"/>
-                    <VAL>
-                        <NAME ID="CD"/>
-                        <INDEX ID="13"/>
-                    </VAL>
-                    <CHILD ID="NEXT">
-                        <BLOCK ID="11"/>
-                        <POS Y="4892" X="6376"/>
-                        <VAL>
-                            <NAME ID="regreso 8"/>
-                            <INDEX ID="11"/>
-                        </VAL>
-                    </CHILD>
-                </CHILD>
-            </Block>
-        </Catalog>
+        <Catalog BaseBlock="VJC6.0"/>
     </Catalog>
-    <Catalog SIZE="3"/>
+    <Catalog SIZE="70"/>
 </VJCC>
